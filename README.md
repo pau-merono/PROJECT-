@@ -1,66 +1,66 @@
 # PROJECT TECNOLOGIA-
-# Análisis de Factores que Afectan la Fertilidad Masculina
+# Analisi dei fattori che influenzano la fertilità maschile
 
-## Introducción
-Este estudio analiza la relación entre diversos factores sociodemográficos, ambientales, estado de salud y hábitos de vida con la calidad del semen en una muestra de 100 voluntarios. Las muestras fueron analizadas siguiendo los criterios de la OMS 2010 para determinar la concentración espermática.
+## Introduzione
+Questo studio analizza la relazione tra vari fattori sociodemografici e ambientali, stato di salute e abitudini di vita con la qualità dello sperma in un campione di 100 volontari. I campioni sono stati analizzati seguendo i criteri dell'OMS 2010 per determinare la concentrazione di sperma.
 
-## Dataset
-### Descripción General
-- **Tamaño de la muestra**: 100 voluntarios
-- **Variables**: 9 características + 1 variable objetivo
-- **Tipo**: Datos multivariant
-- **Área**: Salud y Medicina
-- **Tareas asociadas**: Clasificación y Regresión
-- **Valores perdidos**: No
+##Set di dati
+### Descrizione generale
+- **Dimensione del campione**: 100 volontari
+- **Variabili**: 9 caratteristiche + 1 variabile obiettivo
+- **Tipo**: dati multivarianti
+- **Area**: Sanità e Medicina
+- **Compiti associati**: Classificazione e Regressione
+- **Valori mancanti**: No
 
-### Variables del Estudio
-1. **Estación** (-1, -0.33, 0.33, 1)
-   - Invierno, Primavera, Verano, Otoño
-   
-2. **Edad** (normalizada entre 0 y 1)
-   - Rango: 18-36 años
+### Variabili dello studio
+1. **Stazione** (-1, -0,33, 0,33, 1)
+ - Inverno, Primavera, Estate, Autunno
 
-3. **Enfermedades Infantiles** (0, 1)
-   - Incluye: varicela, sarampión, paperas, polio
-   - 1: Sí, 0: No
+2. **Età** (normalizzata tra 0 e 1)
+ - Gamma: 18-36 anni
 
-4. **Accidentes o Traumas Graves** (0, 1)
-   - 1: Sí, 0: No
+3. **Malattie infantili** (0, 1)
+ - Include: varicella, morbillo, parotite, poliomielite
+ - 1: sì, 0: no
 
-5. **Intervenciones Quirúrgicas** (0, 1)
-   - 1: Sí, 0: No
+4. **Incidenti o traumi gravi** (0, 1)
+ - 1: sì, 0: no
 
-6. **Fiebres Altas en el Último Año** (-1, 0, 1)
-   - -1: Hace menos de 3 meses
-   - 0: Hace más de 3 meses
-   - 1: No
+5. **Interventi chirurgici** (0, 1)
+ - 1: sì, 0: no
 
-7. **Consumo de Alcohol** (normalizado entre 0 y 1)
-   - Frecuencia desde "varias veces al día" hasta "casi nunca o nunca"
+6. **Febbre alta nell'ultimo anno** (-1, 0, 1)
+ - -1: Meno di 3 mesi fa
+ - 0: più di 3 mesi fa
+ - 1: No
 
-8. **Hábito de Fumar** (-1, 0, 1)
-   - -1: Nunca
-   - 0: Ocasional
-   - 1: Diario
+7. **Consumo di alcol** (normalizzato tra 0 e 1)
+ - Frequenza da "più volte al giorno" a "quasi mai o mai"
 
-9. **Horas Sentado por Día** (normalizado entre 0 y 1)
-   - Rango: 1-16 horas
+8. **Abitudine al fumo** (-1, 0, 1)
+ - -1: Mai
+ - 0: occasionale
+ - 1: Diario
 
-### Variable Objetivo
-- **Diagnóstico**:
-  - N: Normal
-  - O: Alterado
+9. **Ore di seduta al giorno** (normalizzato tra 0 e 1)
+ - Intervallo: 1-16 ore
 
-## Objetivos del Análisis
-1. Identificar los factores más influyentes en la calidad del semen
-2. Analizar las correlaciones entre las variables
-3. Desarrollar modelos predictivos para clasificar la calidad del semen
-4. Proporcionar insights sobre los factores de riesgo modificables
+### Variabile di destinazione
+- **Diagnosi**:
+ -N: normale
+ - O: Alterato
 
-## Metodología
-El análisis se realizará siguiendo estos pasos:
-1. Preprocesamiento y limpieza de datos
-2. Análisis exploratorio de datos (EDA)
-3. Análisis estadístico
-4. Modelado predictivo
-5. Interpretación de resultados
+## Obiettivi dell'analisi
+1. Identificare i fattori più influenti sulla qualità dello sperma
+2. Analizzare le correlazioni tra le variabili
+3. Sviluppare modelli predittivi per classificare la qualità dello sperma
+4. Fornire approfondimenti sui fattori di rischio modificabili
+
+## Metodologia
+L’analisi verrà effettuata seguendo questi passaggi:
+1. Preelaborazione e pulizia dei dati
+2. Analisi esplorativa dei dati (EDA)
+3. Analisi statistica
+4. Modellazione predittiva
+5. Interpretazione dei risultati

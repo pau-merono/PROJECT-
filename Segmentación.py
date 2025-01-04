@@ -1,5 +1,6 @@
 # Celda 1: Instalación de librerías necesarias
-!pip install pandas numpy matplotlib seaborn scikit-learn
+# Ejecuta esto en tu entorno si las librerías no están instaladas.
+# !pip install pandas numpy matplotlib seaborn scikit-learn
 
 # Celda 2: Verificación de instalación
 import pandas as pd
